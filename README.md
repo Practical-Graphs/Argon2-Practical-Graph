@@ -18,7 +18,7 @@ The new edge distribution selects 2 parent nodes for node i from nodes in V=[v] 
 
 **Do the changes impact performance and throughput?**
 The changes have minimal performance impacts, and our experiments show that the modifications marginally increase speed. On average, over
-1000 trials, it took 0.969 seconds to run Argon2iB and 0.966 seconds to run this modified version.
+1000 trials, it took 0.969 seconds to run Argon2iB with hardness parameter 1GB ($2^20$ blocks) and 0.966 seconds to run this modified version with the same memory hardness parameter.
 
 
 **Why did you disable support for multiple lanes?**
